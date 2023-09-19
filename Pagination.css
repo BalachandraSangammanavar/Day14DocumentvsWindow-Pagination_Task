@@ -1,4 +1,3 @@
-/* Reset some default styles */
 body,
 ul,
 li {
@@ -96,4 +95,20 @@ table tbody tr:nth-child(even) {
 .pagination .page-item.active .page-link {
     background-color: #0056b3;
     border-color: #0056b3;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    .pagination {
+        margin-top: 10px;
+    }
 }
